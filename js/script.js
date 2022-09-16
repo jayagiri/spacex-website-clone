@@ -1,6 +1,7 @@
-const btn = document.getElementById('main-btn');
+const btn = document.getElementById('menu-btn');
 const overlay = document.getElementById('overlay');
 const menu = document.getElementById('mobile-menu');
+const counters = document.querySelectorAll('.counter');
 let scrollStarted = false;
 
 btn.addEventListener('click', navToggle);
